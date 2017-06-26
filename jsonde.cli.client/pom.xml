@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <relativePath>..</relativePath>
-        <groupId>com.jsonde</groupId>
+        <groupId>com.github.igor-suhorukov</groupId>
         <artifactId>jsonde</artifactId>
         <version>1.1.1-SNAPSHOT</version>
     </parent>

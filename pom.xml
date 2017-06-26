@@ -3,7 +3,7 @@
                               xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 
     <modelVersion>4.0.0</modelVersion>
-    <groupId>com.jsonde</groupId>
+    <groupId>com.github.igor-suhorukov</groupId>
     <artifactId>jsonde</artifactId>
     <packaging>pom</packaging>
     <version>1.1.1-SNAPSHOT</version>
@@ -23,9 +23,6 @@
         <module>jsonde.client</module>
         <module>jsonde.cli.client</module>
         <module>jsonde.test</module>
-        <module>jsonde.gui</module>
-        <module>jsonde.deployment</module>
-        <module>jsonde.installer</module>
     </modules>
 
     <dependencies>

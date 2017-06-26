@@ -4,7 +4,7 @@
 
     <parent>
         <relativePath>..</relativePath>
-        <groupId>com.jsonde</groupId>
+        <groupId>com.github.igor-suhorukov</groupId>
         <artifactId>jsonde</artifactId>
         <version>1.1.1-SNAPSHOT</version>
     </parent>
@@ -17,12 +17,12 @@
 
     <dependencies>
         <dependency>
-            <groupId>com.jsonde</groupId>
+            <groupId>com.github.igor-suhorukov</groupId>
             <artifactId>jsonde.profiler</artifactId>
             <version>1.1.1-SNAPSHOT</version>
         </dependency>
         <dependency>
-            <groupId>com.jsonde</groupId>
+            <groupId>com.github.igor-suhorukov</groupId>
             <artifactId>jsonde.util</artifactId>
             <version>1.1.1-SNAPSHOT</version>
         </dependency>
