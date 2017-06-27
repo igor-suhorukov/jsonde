@@ -33,7 +33,7 @@ public class CliClient {
         MethodListener methodListener = new MethodListener();
         client.addMethodCallListener(methodListener);
 
-        while (client.isOnline() && !Thread.interrupted()){
+        while (client.isAlive() && !Thread.interrupted()){
             try {
                 Thread.sleep(TIMEOUT);
             } catch (InterruptedException e) {

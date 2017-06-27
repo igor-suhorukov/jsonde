@@ -155,6 +155,10 @@ public class Client implements MessageListener {
         return online;
     }
 
+    public boolean isAlive(){
+        return networkClient.isAlive();
+    }
+
     public void start() {
 
         networkClient.addMessageListener(this);

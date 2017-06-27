@@ -20,4 +20,5 @@ public interface NetworkClient {
 
     void removeMessageListener(MessageListener messageListener);
 
+    boolean isAlive();
 }

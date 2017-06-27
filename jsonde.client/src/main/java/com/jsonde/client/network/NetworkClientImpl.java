@@ -223,6 +223,10 @@ public class NetworkClientImpl implements NetworkClient {
         messageListeners.remove(messageListener);
     }
 
+    public boolean isAlive() {
+        return inputThread.isAlive();
+    }
+
 
     public synchronized boolean isRunning() {
         return running;
