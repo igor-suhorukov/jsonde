@@ -23,6 +23,7 @@
         <module>jsonde.client</module>
         <module>jsonde.cli.client</module>
         <module>jsonde.test</module>
+        <module>visualization</module>
     </modules>
 
     <dependencies>
